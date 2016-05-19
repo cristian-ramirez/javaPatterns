@@ -10,9 +10,13 @@ public class Main {
         Sheep sheep4 = new Sheep("sheep4", shepherd);
         Sheep sheep5 = new Sheep("sheep5", shepherd);
         
+        System.out.println("=====================================");
+        
         sheep2.hidden();
         sheep3.hidden();
         sheep5.hidden();
+        
+        System.out.println("=====================================");
         
         sheep5.visible();
         sheep2.visible();
